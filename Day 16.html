@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 16 - Position</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      margin: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Static (default) */
+    .static {
+      background: rgb(255, 17, 17);
+      position: static;
+    }
+
+    /* Relative */
+    .relative {
+      background: green;
+      position: relative;
+      left: 100px;
+      top: 20px;
+    }
+
+    /* Parent for absolute */
+    .parent {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      background: rgb(1, 255, 48);
+      margin: 20px;
+    }
+
+    /* Absolute */
+    .absolute {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 120px;
+      height: 60px;
+      background: red;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>1. Static (Normal)</h2>
+  <div class="box static">Static Box</div>
+
+  <h2>2. Relative (Moves but keeps space)</h2>
+  <div class="box relative">Relative Box</div>
+
+  <h2>3. Absolute (Moves freely inside parent)</h2>
+  <div class="parent">
+    <div class="absolute">Absolute Box</div>
+  </div>
+
+</body>
+</html>

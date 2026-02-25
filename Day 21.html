@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 21 - Basic Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    /* Header */
+    .header {
+      background: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    /* Main container */
+    .container {
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 25%;
+      background: lightgray;
+      padding: 20px;
+    }
+
+    /* Content */
+    .content {
+      width: 75%;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    /* Footer */
+    .footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    My Website Header
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      Sidebar Menu<br>
+      Link 1<br>
+      Link 2<br>
+      Link 3
+    </div>
+
+    <div class="content">
+      <h2>Main Content</h2>
+      <p>This is the main content area.</p>
+      <p>You are now building real layouts 💪</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    My Website Footer
+  </div>
+
+</body>
+</html>

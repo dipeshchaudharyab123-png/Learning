@@ -1,0 +1,20 @@
+/*This is Heading style*/
+h1{
+    color: red;
+    text-align: center; 
+    background-color: yellow;
+}
+
+/*This is Sub-heading style*/
+h2{
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+}
+
+/*This is paragraph style*/
+p{
+    color: blueviolet;
+    background-color: aquamarine;
+    text-align: center;
+}
